@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="bg-dark">
+    <div class="container text-right" dir="rtl">
+        <div class="row ">
+            <div class="offset-md-2">    
+            </div>
+            <div class="col-md-8 bg-white px-4 py-4 mx-3 my-contain"> 
+                <form class="" action="#" id="my-form">
+                    <p>ایجاد تسک</p>
+                    <input class="w-100 pr-2 py-1" type="text" name="" id="create-task" placeholder="تسک را وارد کنید ...">
+                    <br>
+                    <button class="btn btn-primary mt-3" type="submit" id="btn-add"> اضافه کردن </button>
+                    <hr>
+                    <h3>تسک ها</h3>
+                    <h5>فیلتر تسک</h5>
+                    <input class="w-100 pr-2 py-1" type="text" placeholder="تسک..." id="search-task">
+                    <ul class="list-group my-3 p-0" id="my_list">
+                        <li class="list-group-item pl-4 my-list-task d-flex justify-content-between" id="item-task"> تسک
+                            <i class="fa fa-times text-danger mr-auto"></i>
+                        </li>
+                        <!-- <li class="list-group-item pl-4 my-list-task  d-flex justify-content-between" id="item-task">
+                            <i class="fa fa-times text-danger mr-auto"></i>
+                        </li>
+                        <li class="list-group-item pl-4 my-list-task  d-flex justify-content-between" id="item-task">
+                            <i class="fa fa-times text-danger mr-auto"></i>
+                        </li> -->
+                    </ul>
+                    <button class="btn btn-dark " id="delet-all" type="button">پاک کردن</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
